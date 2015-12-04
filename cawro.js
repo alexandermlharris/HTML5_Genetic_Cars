@@ -297,7 +297,7 @@ function cw_createRandomCar() {
   var v = [];
   var car_def = new Object();
   
-  car_def.wheelCount = 2; 
+  car_def.wheelCount = Math.floor(Math.random()*5); 
   
   car_def.wheel_radius = [];
   car_def.wheel_density = [];
